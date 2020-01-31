@@ -1,0 +1,56 @@
+# docker-compose.yml
+version: '3'
+
+volumes:
+
+  pgdata: {}
+  esdata: {}
+
+services:
+
+  web:
+    container_name: "${COMPOSE_PROJECT_NAME}-web"
+    restart: always
+    volumes:
+      - ./web:/code/
+    build:
+      context: ./web/
+    command: ./start.sh
+    depends_on:
+      - db
+      - es
+    env_file: .env
+    ports:
+      - "8000:8000"
+
+  db:
+    container_name: "${COMPOSE_PROJECT_NAME}-pg"
+    restart: always
+    image: postgres
+    env_file: .env
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+  es:
+    container_name: "${COMPOSE_PROJECT_NAME}-es"
+    restart: always
+    image: elasticsearch:7.5.0
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+    environment:
+      - discovery.type=single-node
+    ports:
+      - "9200:9200"
+
+  kibana:
+    container_name: "${COMPOSE_PROJECT_NAME}-kb"
+    restart: always
+    image: docker.elastic.co/kibana/kibana:7.5.0
+    volumes:
+      - ./kibana/kibana.yml:/usr/share/kibana/config/kibana.yml
+    depends_on:
+      - es
+    ports:
+      - "5601:5601"

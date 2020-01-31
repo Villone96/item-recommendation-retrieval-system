@@ -1,0 +1,220 @@
+{% load widget_tweaks %}
+
+<!DOCTYPE html>
+<head>
+  <title>Search</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  
+ <style>
+    #advanced {
+        display: block;
+    }
+
+    table {
+        text-align: center;
+    }
+
+    tbody {
+        display:block;
+        overflow:auto;
+    }
+
+    thead, tbody tr {
+        display:table;
+        width:100%;
+        table-layout:fixed;
+    }
+
+    #personalized {
+        display: block;
+    }
+
+    .overview {
+        overflow-y: scroll;
+        height: 17em;
+        display: block;
+    }
+ </style>
+
+</head>
+<body>
+  <div class="container">
+  </div>
+  <div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <br><br>
+      <h1 class="header center green-text text-lighten-3">ElasticMovies</h1>
+      <div class="row center">
+        <h5 class="header col s12 light grey-text text-lighten-1">Search for your movies with full-text search!</h5>
+      </div>
+    </div>
+  </div>
+
+   <div class="container">
+    <!-- Search bar+form -->
+        <div class="row">
+        <div class="col s12">
+            <form method="get">
+                <div class="row">
+                    <div class="input-field col s8">
+                        {{ form.query.errors }}
+                        <i class="material-icons prefix">search</i>
+                        {{ form.query.label_tag }} {{ form.query }}
+                    </div>
+
+                    <div class="input-field col s4">
+                        {{ form.profile.errors }}
+                        <i class="material-icons prefix">account_box</i>
+                        {{ form.profile.label_tag }} {{ form.profile }}
+                    </div>
+                </div> 
+                <div class="row">
+                    <a class="waves-effect waves-teal btn-flat btn-small" id="hide" onclick="show();">Hide Advanced Options</a>
+                </div>
+                <div id="advanced">
+                    <div class="switch row">
+                        <label>
+                            {{ form.personalized.errors }}
+                            {{ form.personalized.label_tag }}
+                            {{ form.personalized }} 
+                            <span class="lever"></span>
+                        </label>
+                    </div> 
+                    <div class="switch row">
+                        <label>
+                            {{ form.fuzzy.errors }}
+                            {{ form.fuzzy.label_tag }}
+                            {{ form.fuzzy }} 
+                            <span class="lever"></span>
+                        </label>
+                    </div>
+                    <div class="switch row">
+                        <label>
+                            {{ form.synonyms.errors }}
+                            {{ form.synonyms.label_tag }}
+                            {{ form.synonyms}} 
+                            <span class="lever"></span>
+                        </label>
+                    </div>
+                    <div class="switch row">
+                        <label>
+                            {{ form.popularity_rel.errors }}
+                            {{ form.popularity_rel.label_tag }}
+                            {{ form.popularity_rel }} 
+                            <span class="lever"></span>
+                        </label>
+                    </div>
+                    <div class="switch row">
+                        <label>
+                            {{ form.weighted_vote_rel.errors }}
+                            {{ form.weighted_vote_rel.label_tag }}
+                            {{ form.weighted_vote_rel }} 
+                            <span class="lever"></span>
+                        </label>
+                    </div>
+                    <input type="submit" style="display: none;" /> 
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Results bar -->
+        <div class="row" id="personalized">
+            <div class="col s12">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User Interest</th>
+                            <th>User Language</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td>{{ u_interest }}</td>
+                                <td>{{ u_language }}</td>
+                            </tr>
+                        <tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col s12">
+                    <table class="centered responsive-table">
+                        <thead>
+                            <tr>
+                                <th>Poster</th> 
+                                <th>Title</th>
+                                <th>Overview</th>
+                                <th>Language</th>
+                                <th>Genres</th>
+                                <th>Production Companies</th>
+                                <th>Average vote</th>
+                                <th>Vote count</th> 
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% if items %}
+                                {% for item in items %}
+                                    <tr>
+                                        <td><img class="responsive-img" src= "{{item.poster_path}}" /></td>
+                                        <td>{{ item.title }}</td>
+                                        <td class="overview">{{ item.overview }}</td>
+                                        <td>{{ item.spoken_lan }}</td>
+                                        <td>{{ item.genres }}</td>
+                                        <td>{{ item.production_companies }}</td>
+                                        <td>{{ item.vote_average }}</td>
+                                        <td>{{ item.vote_count }}</td>
+                                        <td>{{ item.meta.score }}</td>
+                                        </tr>
+                                    <tr>
+                                {% endfor %}
+                            {% endif %}
+                        </tbody>
+                    </table>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+
+  </body>
+      
+  <script>
+        var showAdvanced = 1;
+        var advancedSec = document.getElementById("advanced");
+
+        function show()
+        {
+          if(showAdvanced==0)
+          {
+            advancedSec.style.display='block';
+            showAdvanced=1;
+          }else{
+            advancedSec.style.display='none';
+            showAdvanced=0;
+          }
+        }
+
+        var personalizedChk = document.getElementById("id_personalized");
+        var personalizedSec = document.getElementById("personalized");
+        personalizedChk.checked = true;
+        personalizedChk.addEventListener( 'change', function() {
+            if(this.checked) {
+                personalizedSec.style.display="block"
+            } else {
+                personalizedSec.style.display="none"
+            }
+        });
+
+    </script>
+</html>

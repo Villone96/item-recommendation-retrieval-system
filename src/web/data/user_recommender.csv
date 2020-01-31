@@ -1,0 +1,241 @@
+userId,movieId,title,type_r,rank
+999,44245,Triple Tap,cf,5.0
+999,82667,Five Bloody Graves,cf,5.0
+999,6182,The Dream Catcher,cf,5.0
+999,1024,Heavenly Creatures,cf,5.0
+999,81512,Many Rivers to Cross,cf,5.0
+999,4676,Grande école,cf,5.0
+999,1542,Office Space,cf,5.0
+999,991,The Man Who Fell to Earth,cf,5.0
+999,1370,Rambo III,cf,5.0
+999,89,Indiana Jones and the Last Crusade,cf,5.0
+999,217763,Show Girl in Hollywood,cb,0.16405591600574707
+999,33665,Opening Night,cb,0.14884092073197014
+999,18773,Doppelganger,cb,0.14490547477224627
+999,49343,Dream Demon,cb,0.14431921080301943
+999,20115,Opera,cb,0.14194936953822068
+999,26710,My Baby's Daddy,cb,0.14030261533080304
+999,74899,The Fan,cb,0.14021754612747628
+999,49299,Dangerous Game,cb,0.13376264115959063
+999,45145,Johnny Suede,cb,0.13109046444065492
+999,37922,Unconditional Love,cb,0.1265164011274577
+1000,1024,Heavenly Creatures,cf,5.0
+1000,26694,Big River Man,cf,5.0
+1000,82667,Five Bloody Graves,cf,5.0
+1000,81512,Many Rivers to Cross,cf,5.0
+1000,991,The Man Who Fell to Earth,cf,5.0
+1000,4676,Grande école,cf,5.0
+1000,44245,Triple Tap,cf,5.0
+1000,2021,Jack & Sarah,cf,5.0
+1000,1250,Ghost Rider,cf,5.0
+1000,2642,Two Weeks Notice,cf,5.0
+1000,24169,Il cosmo sul comò,cb,0.9924547119923515
+1000,8951,Don't Think About It,cb,0.9924547119923515
+1000,24177,Holy Tongue,cb,0.9924547119923515
+1000,22182,Lezioni di cioccolato,cb,0.9924547119923515
+1000,20414,"Grande, grosso e Verdone",cb,0.9924547119923515
+1000,26285,Fantozzi Still Suffers,cb,0.9924547119923515
+1000,3405,Anyone Can Play,cb,0.9924547119923515
+1000,11813,Il soldato di ventura,cb,0.9924547119923515
+1000,4921,Vivere,cb,0.9924547119923515
+1000,33495,2061 - Un anno eccezionale,cb,0.9924547119923515
+1001,100450,Trapped in the Closet: Chapters 1-12,cf,5.0
+1001,58191,He's Worse than Me,cf,5.0
+1001,2058,Addicted to Love,cf,5.0
+1001,2048,"I, Robot",cf,5.0
+1001,3007,Woman in the Moon,cf,5.0
+1001,43464,Sinbad il marinaio,cf,5.0
+1001,4031,Going Places,cf,5.0
+1001,1988,A Mighty Heart,cf,5.0
+1001,1590,Copying Beethoven,cf,5.0
+1001,8948,The Pearl Color,cf,5.0
+1001,52655,Shooters,cb,0.19332976416217051
+1001,52748,The Skin Game,cb,0.17589220165494446
+1001,994,Straw Dogs,cb,0.17177693839316463
+1001,38961,Tamara Drewe,cb,0.17145243336621163
+1001,10705,Henry V,cb,0.16892760698818107
+1001,48303,Certified Copy,cb,0.16774696356702007
+1001,180836,Miss Marple: The Moving Finger,cb,0.16659272623017712
+1001,87906,Tuareg: Desert Warrior,cb,0.15417806505520573
+1001,28778,The Devil-Ship Pirates,cb,0.14702804590541002
+1001,36194,The Go-Between,cb,0.14456089948289036
+1002,26694,Big River Man,cf,5.0
+1002,82667,Five Bloody Graves,cf,5.0
+1002,44245,Triple Tap,cf,5.0
+1002,4676,Grande école,cf,5.0
+1002,3509,A Scanner Darkly,cf,5.0
+1002,81512,Many Rivers to Cross,cf,5.0
+1002,1250,Ghost Rider,cf,5.0
+1002,1406,City Slickers,cf,5.0
+1002,1024,Heavenly Creatures,cf,5.0
+1002,1661,Gigantics,cf,5.0
+1002,19844,Kiss the Bride,cb,0.2646307777549792
+1002,55033,The Buttercream Gang,cb,0.2591127837938144
+1002,82134,I Want to Marry Ryan Banks,cb,0.2582121173088006
+1002,84323,Price Check,cb,0.24988546830264022
+1002,43705,The Great Lie,cb,0.24518253927480357
+1002,11352,Always,cb,0.2420463448043809
+1002,22947,Up in the Air,cb,0.2264824323110021
+1002,39541,Stolen Summer,cb,0.21346635706995476
+1002,16222,Whatever It Takes,cb,0.20751966394420535
+1002,26602,Summer Catch,cb,0.1978015787112015
+1003,82667,Five Bloody Graves,cf,5.0
+1003,4676,Grande école,cf,5.0
+1003,3509,A Scanner Darkly,cf,5.0
+1003,44245,Triple Tap,cf,5.0
+1003,81512,Many Rivers to Cross,cf,5.0
+1003,1024,Heavenly Creatures,cf,5.0
+1003,1250,Ghost Rider,cf,5.0
+1003,121,The Lord of the Rings: The Two Towers,cf,5.0
+1003,1661,Gigantics,cf,5.0
+1003,52891,Hitler's Kaput!,cf,5.0
+1003,19203,Graduation,cb,0.2428110504891515
+1003,352186,Good Kids,cb,0.2289276996819682
+1003,43710,Who's Minding The Mint?,cb,0.2231534274211657
+1003,14127,Cherry Crush,cb,0.2156898410797639
+1003,110553,Austin High,cb,0.20133594842074493
+1003,60447,Devolved,cb,0.19455301355896118
+1003,9451,Election,cb,0.1901045360150771
+1003,9264,Poison Ivy,cb,0.18990545106983348
+1003,83001,Hollywood High,cb,0.18923930705118183
+1003,87826,Here Comes the Boom,cb,0.18410043127915135
+1004,875,Shanghai Express,cf,5.0
+1004,1420,Breakfast on Pluto,cf,5.0
+1004,1370,Rambo III,cf,5.0
+1004,121,The Lord of the Rings: The Two Towers,cf,5.0
+1004,165,Back to the Future Part II,cf,5.0
+1004,44245,Triple Tap,cf,5.0
+1004,89,Indiana Jones and the Last Crusade,cf,5.0
+1004,1954,The Butterfly Effect,cf,5.0
+1004,82667,Five Bloody Graves,cf,5.0
+1004,6037,Murder by Death,cf,5.0
+1004,14874,Try Seventeen,cb,0.1758101014431374
+1004,299143,The Gate of Heaven,cb,0.17218557925454245
+1004,103597,Americano,cb,0.14562617296445385
+1004,44775,Pack Up Your Troubles,cb,0.13975343074587065
+1004,16296,Killer Klowns from Outer Space,cb,0.1379844692407421
+1004,45949,The Days Between,cb,0.1353454633452272
+1004,14674,Man of the West,cb,0.13371458384116122
+1004,27944,Rain Fall,cb,0.11868584528342525
+1004,69765,Orders,cb,0.11312818179201287
+1004,3482,The Train,cb,0.11285284010214186
+1005,121,The Lord of the Rings: The Two Towers,cf,5.0
+1005,875,Shanghai Express,cf,5.0
+1005,1250,Ghost Rider,cf,5.0
+1005,1370,Rambo III,cf,5.0
+1005,82667,Five Bloody Graves,cf,5.0
+1005,1420,Breakfast on Pluto,cf,5.0
+1005,3489,88 Minutes,cf,5.0
+1005,89,Indiana Jones and the Last Crusade,cf,5.0
+1005,44245,Triple Tap,cf,5.0
+1005,1837,The Secret,cf,5.0
+1005,36670,Never Say Never Again,cb,0.3731254419678645
+1005,12208,Casino Royale,cb,0.2648703873308703
+1005,206647,Spectre,cb,0.25926934026672327
+1005,667,You Only Live Twice,cb,0.24637241801795784
+1005,708,The Living Daylights,cb,0.243962304609497
+1005,646,Dr. No,cb,0.23989723113371014
+1005,700,Octopussy,cb,0.22998183853299758
+1005,253,Live and Let Die,cb,0.20352801377717517
+1005,681,Diamonds Are Forever,cb,0.19506391913709514
+1005,709,Licence to Kill,cb,0.18395224222955364
+1006,26271,Live Nude Girls,cf,5.0
+1006,4011,Beetlejuice,cf,5.0
+1006,1024,Heavenly Creatures,cf,5.0
+1006,40226,The Era of Vampires,cf,5.0
+1006,6037,Murder by Death,cf,5.0
+1006,31026,Distant,cf,5.0
+1006,1370,Rambo III,cf,5.0
+1006,44245,Triple Tap,cf,5.0
+1006,1250,Ghost Rider,cf,5.0
+1006,81847,The Dawn Patrol,cf,5.0
+1006,121572,Toad Road,cb,0.2107023375803388
+1006,45739,Tube Tales,cb,0.16979461109455096
+1006,61528,Born Equal,cb,0.1681699112626968
+1006,12122,Village of the Damned,cb,0.16555387702564717
+1006,11607,DeepStar Six,cb,0.16047139503352292
+1006,80545,Wedding Belles,cb,0.1509374004696209
+1006,171357,"Jonathan Rosenbaum, Present",cb,0.14955406133554683
+1006,17775,Toronto Stories,cb,0.14380035686818898
+1006,359364,Human,cb,0.14226972714641126
+1006,61542,Funkytown,cb,0.14116118458911564
+1007,4011,Beetlejuice,cf,5.0
+1007,89,Indiana Jones and the Last Crusade,cf,5.0
+1007,44245,Triple Tap,cf,5.0
+1007,1024,Heavenly Creatures,cf,5.0
+1007,265,Lili Marleen,cf,5.0
+1007,6182,The Dream Catcher,cf,5.0
+1007,2021,Jack & Sarah,cf,5.0
+1007,306,Beverly Hills Cop III,cf,5.0
+1007,1921,Sweet November,cf,5.0
+1007,26131,Straight From the Heart,cf,5.0
+1007,137801,Nobody Knows Sex,cb,0.18168636797280488
+1007,405670,Zoology,cb,0.145286109242884
+1007,33245,It's My Party,cb,0.13910040700269666
+1007,41961,Little Vera,cb,0.1386993622848769
+1007,9786,Art School Confidential,cb,0.13555924612348336
+1007,83481,Heroes,cb,0.13428726091332077
+1007,4170,Trade,cb,0.13329639468202784
+1007,114189,Remembrance,cb,0.1327595608975609
+1007,41182,The Boxer,cb,0.13269229973788385
+1007,44513,Father and Son,cb,0.12903441954068579
+1008,991,The Man Who Fell to Earth,cf,5.0
+1008,121,The Lord of the Rings: The Two Towers,cf,5.0
+1008,82667,Five Bloody Graves,cf,5.0
+1008,8290,Don't Look Now: We're Being Shot At,cf,5.0
+1008,3509,A Scanner Darkly,cf,5.0
+1008,44245,Triple Tap,cf,5.0
+1008,3489,88 Minutes,cf,5.0
+1008,1370,Rambo III,cf,5.0
+1008,81512,Many Rivers to Cross,cf,5.0
+1008,1277,Gloomy Sunday,cf,5.0
+1008,48116,Love Sick,cb,0.124123942845664
+1008,38907,West,cb,0.11873092678871987
+1008,118257,Room 666,cb,0.11494811870108976
+1008,31413,Innocence,cb,0.10458042783561877
+1008,10832,Them,cb,0.1023180427798752
+1008,136727,Of Snails and Men,cb,0.09927925731359617
+1008,215520,Rags & Tatters,cb,0.09869340889688935
+1008,333886,Lemonade,cb,0.09860483185759228
+1008,18421,Climates,cb,0.09725551062946641
+1008,141241,15,cb,0.09155066707145647
+1009,26694,Big River Man,cf,5.0
+1009,44245,Triple Tap,cf,5.0
+1009,82667,Five Bloody Graves,cf,5.0
+1009,81512,Many Rivers to Cross,cf,5.0
+1009,52891,Hitler's Kaput!,cf,5.0
+1009,4676,Grande école,cf,5.0
+1009,1250,Ghost Rider,cf,5.0
+1009,1406,City Slickers,cf,5.0
+1009,1024,Heavenly Creatures,cf,5.0
+1009,89,Indiana Jones and the Last Crusade,cf,5.0
+1009,391004,His Girlfriend,cb,0.15354348600444792
+1009,16664,All About Lily Chou-Chou,cb,0.15227412501420828
+1009,297186,Fatal Frame,cb,0.14613718792401204
+1009,28830,Oppai Volleyball,cb,0.13415300811727235
+1009,178736,Chizuko's Younger Sister,cb,0.13172891590548316
+1009,259233,Ju-on: The Beginning of the End,cb,0.1252331643024805
+1009,40119,Drop,cb,0.1233690467173554
+1009,60604,Hanamizuki,cb,0.12114294428675469
+1009,283711,Red Amnesia,cb,0.12013983074331142
+1009,54178,The One-Armed Swordsman,cb,0.11461339732557467
+1010,1990,Paranoid Park,cf,5.0
+1010,5000,Forbidden Games,cf,5.0
+1010,750,Murder She Said,cf,5.0
+1010,17,The Dark,cf,5.0
+1010,3638,No Reservations,cf,5.0
+1010,101904,Through the Forest,cf,5.0
+1010,100450,Trapped in the Closet: Chapters 1-12,cf,5.0
+1010,26700,Nocturna,cf,5.0
+1010,228,The Blue Angel,cf,5.0
+1010,590,The Hours,cf,5.0
+1010,36606,Full Tilt Boogie,cb,0.2351150449967614
+1010,117773,Frozen Assets,cb,0.2092657125474529
+1010,90726,Hate for Hate,cb,0.19451222850518313
+1010,14864,The Hot Spot,cb,0.16333326094514028
+1010,219247,Zombie Night,cb,0.15169533510365146
+1010,24048,The Front Line,cb,0.14795700823134367
+1010,152748,Ain't Them Bodies Saints,cb,0.14726460033793037
+1010,968,Dog Day Afternoon,cb,0.1455893037945011
+1010,420346,The Morning After,cb,0.1441777358237762
+1010,109456,Coffin Full of Dollars,cb,0.14276737813653187
